@@ -1,0 +1,45 @@
+Project Summary: AdventureWorks Sales Analysis Dashboard
+Project Overview:
+In this project, I have built a professional Business Intelligence dashboard from scratch. I followed a structured 6-step process to transform raw sales data into interactive insights.
+
+Detailed Steps Performed:
+
+1. Data Modeling:
+
+Created a clean 'Star Schema' by connecting Fact and Dimension tables using Primary and Foreign keys.
+
+Organized the data view by hiding unnecessary fields and ensuring consistent naming.
+
+2. DAX Measures & Calculated Columns:
+
+Wrote advanced DAX formulas using functions like CALCULATE, FILTER, and SUMX.
+
+Created calculated columns for Profit Margin classification and formatted Customer names.
+
+3. Time Intelligence:
+
+Developed measures to track Year-Over-Year (YOY) and Month-Over-Month (MOM) growth for sales and returns.
+
+Identified seasonal trends using time-based data.
+
+4. Dashboard Layout:
+
+Designed a 4-page layout: 1 Main Dashboard, 2 Detail pages, and 1 Drillthrough page.
+
+Used variety of visuals like KPI Cards, Line Charts, Bar Charts  and Donut Charts to show trends and forecasts.
+
+Added "Top N" lists for both Products and Customers to highlight best performers.
+
+5. Filtering & Interaction:
+
+Added Slicers .
+
+Enabled Drill-Up and Drill-Down features to explore data at different levels.
+
+6. Navigation & UX:
+
+Added "Page Navigator" buttons (In DrillThrough page) for smooth movement between report pages.
+
+Enabled Tooltips and Conditional Formatting  to make the data easy to read.
+
+
