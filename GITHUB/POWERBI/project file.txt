@@ -1,0 +1,47 @@
+Project Title: Comprehensive Student Analytics Dashboard
+1. Project Overview
+The objective of this project is to create an interactive Power BI dashboard that monitors student performance and behavior. It provides a holistic view by tracking academic scores and behavioral patterns, allowing educators to make data-driven decisions.
+
+2. Key Features and Implementation
+A. Dynamic Data Filtering (Slicers)
+Purpose: To enable multi-level filtering of data.
+
+Implementation: Created individual slicers for Date, Region, Product/Subject, and Student Name. This allows users to drill down into specific data segments instantly.
+
+B. Trend Analysis (Line Charts)
+Purpose: To visualize performance changes over time.
+
+Implementation: Developed line charts with Time (Month/Year) on the X-axis and Scores/Attendance on the Y-axis.
+
+Tip: Applied markers and trendlines to identify whether student performance is improving or declining.
+
+C. Navigation and View Switching (Bookmarks & Selection)
+Purpose: To switch between different report views without cluttering the page.
+
+Implementation: * Created two distinct views: Academic View (Scores, Grades) and Behavioral View (Attendance, Discipline).
+
+Used the Selection Pane to group and hide/show relevant visuals for each category.
+
+Integrated a Bookmark Navigator to provide a seamless "App-like" experience for users to toggle between these views.
+
+D. Detailed Student Profiles (Drill-through)
+Purpose: To provide deep-dive insights into individual student records.
+
+Implementation: * Designed a dedicated Student Profile page.
+
+Configured a Drill-through Button on the main dashboard.
+
+Set up a data action where selecting a student's name activates the button, leading the user to a filtered detail page for that specific student.
+
+E. Advanced Data Insights (Tooltips)
+Purpose: To provide instant context without leaving the main chart.
+
+Implementation: Created Tooltip pages with mini-charts. When a user hovers over a data point (like a student's name), a small pop-up window displays their historical performance trend or specific behavioral notes.
+
+3. Navigation Logic
+Main Dashboard: General overview with slicers and bookmark navigation for Academic vs. Behavioral views.
+
+Profile Page: Accessed via Drill-through for specific student details, equipped with a "Back" button for easy navigation.
+
+4. Conclusion
+This dashboard transforms raw student data into an interactive story. By using advanced Power BI features like Bookmarks and Drill-through, the report remains clean, professional, and highly functional for end-users.
